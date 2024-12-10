@@ -30,10 +30,10 @@ class EmotesCommand extends BaseCommand {
     }
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void {
-        if ($this->config === null) {
-            $sender->sendMessage(C::colorize("&r&l&4Error: &r&cConfiguration not found."));
+        if (!isset($this->config) || $this->config->getAll() === []) {
+            $sender->sendMessage(C::colorize("&r&l&4Error: &r&cConfiguration not found or is empty."));
             return;
-        }
+        }    
 
         $page = isset($args["page"]) ? (int) $args["page"] : 1;
         $allEmotes = array_keys($this->cfgEmotes);
