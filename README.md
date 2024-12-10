@@ -17,3 +17,6 @@ Typing `:heart:` will be replaced by `❤`.
 
 # Support
 If you encounter any issues or have questions, feel free to open an issue on the repository
+
+# Icon Credits
+<a href="https://www.freepik.com/search">Icon by NajmunNahar</a>
