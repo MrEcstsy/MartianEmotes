@@ -1,0 +1,9 @@
+name: MartianEmotes
+main: ecstsy\MartianEmotes\Loader
+api: 5.1.0
+version: 1.0.0
+author: ecstsy
+
+permissions:
+  martian_emotes.default:
+    default: true

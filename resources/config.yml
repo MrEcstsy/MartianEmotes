@@ -1,0 +1,69 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+# Information:
+# Permissions will automatically be created when an emote is added in the list below.
+# The permissions will look like this:
+# "martian_emotes.wave"
+settings:
+  per-page: 5 # How many emotes to show per page
+  all-default: true # If true, all players can use the emotes. false will require a permission for each one.
+  emote-list:
+    - "&r&8&l------------ &r&dMartian's Emote List&l&8 -------------"
+    - "&r&7Emotes &8(&a{page}&7/&f{total-pages}&8)&f:"
+    - "&r&7» &f{phrase} &8→ &d{output}"
+
+# List of emotes
+emotes:
+  wave: # Identifier
+    phrase: ":wave:" # What the player has to type to trigger the emote
+    output: "(•◡•)/" # What the phrase will turn into in chat
+  shrug:
+    phrase: ":shrug:"
+    output: "¯\_(ツ)_/¯"
+  wow:
+    phrase: ":wow:"
+    output: "(°o°)"
+  facepalm:
+    phrase: ":facepalm:"
+    output: "(－‸ლ)"
+  hearteyes:
+    phrase: ":hearteyes:"
+    output: "(♥‿♥)"
+  love:
+    phrase: ":love:"
+    output: "(✿♥‿♥)"
+  star:
+    phrase: ":star:"
+    output: "★"
+  tick:
+    phrase: ":tick:"
+    output: "&a✓" # Supports colors too!
+  dead:
+    phrase: ":dead:"
+    output: "x__x"
+  magicflip:
+    phrase: ":magicflip:"
+    output: "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧"
+  gimme:
+    phrase: ":gimme:"
+    output: "༼ つ ◕_◕ ༽つ"
+  flip:
+    phrase: ":flip:"
+    output: "(╯°□°）╯︵ ┻━┻"
+  unflip:
+    phrase: ":unflip:"
+    output: "┬─┬ノ(º_ºノ)"
+  skull:
+    phrase: ":skull:"
+    output: "☠"
+  heart:
+    phrase: ":heart:"
+    output: "❤"
+  up:
+    phrase: ":up:"
+    output: "⬆"
+  derp:
+    phrase: ":derp:"
+    output: "(•‿•)"
+  
