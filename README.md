@@ -1,4 +1,7 @@
 # MartianEmotes
+[![](https://poggit.pmmp.io/shield.state/MartianEmotes)](https://poggit.pmmp.io/p/MartianEmotes)
+<a href="https://poggit.pmmp.io/p/MartianEmotes"><img src="https://poggit.pmmp.io/shield.state/MartianEmotes"></a> [![](https://poggit.pmmp.io/shield.api/MartianEmotes)](https://poggit.pmmp.io/p/MartianEmotes)
+<a href="https://poggit.pmmp.io/p/MartianEmotes"><img src="https://poggit.pmmp.io/shield.api/MartianEmotes"></a>
 The MartianEmotes plugin adds a fun way for players to use custom emotes in chat on your Minecraft server. With this plugin, players can trigger emotes by typing specific phrases in chat, which are replaced with emote outputs.
 
 # Features
